@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "ffe81289d5d502cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b953a25a50e9726",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d4df292750ddb42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Threading.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Threading"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dd2171a27f3ad803",
+    "type": "split",
+    "children": [
+      {
+        "id": "ace1dc7dd624c9b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c67cacf0c2bb2dd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cd714cb2d41c3dc8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "174a375fa8330923",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "7bbb1c67010c8ee4",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffe708de7eb9e0c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "797d43ea4464d11a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Threading.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Threading"
+            }
+          },
+          {
+            "id": "1ddb015ff0e5a433",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "C Sharp.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from C Sharp"
+            }
+          },
+          {
+            "id": "f88f5dac9d04af4e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ef26c67bb087cb98",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c253843d820105d9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "C Sharp.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of C Sharp"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "4d4df292750ddb42",
+  "lastOpenFiles": [
+    "Threading.md",
+    "C Sharp.md",
+    "Pasted image 20260304104251.png",
+    "Untitled.md",
+    "Arrays.md",
+    "Untitled.base",
+    "String.md",
+    "LINQ.md",
+    "Pasted image 20260220123839.png",
+    "Important.md",
+    "Tuples.md",
+    "CLS.md",
+    "CTS.md",
+    "Collections.md",
+    "Console class.md",
+    "Indexers.md",
+    "Event.md",
+    "Delegates.md",
+    "MSIL or IL.md",
+    "Instance methods.md",
+    "DotNet.md",
+    "Object Oriented Programming.md",
+    "comms.py",
+    "Extension Methods.md",
+    "Null data.md",
+    "Encapsulation.md",
+    "DotNet Framework.md",
+    "CLR.md",
+    "Constructor.md",
+    "Enumeration.md",
+    "Pasted image 20260206150214.png",
+    "Pasted image 20260203125937.png",
+    "Pasted image 20260203145239.png",
+    "Pasted image 20260203142935.png",
+    "Pasted image 20260203142321.png",
+    "Pasted image 20260203142228.png",
+    "Pasted image 20260202104712.png",
+    "Pasted image 20260130150714.png",
+    "MSIL",
+    "desktop.ini"
+  ]
+}

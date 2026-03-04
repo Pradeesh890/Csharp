@@ -1,0 +1,10 @@
+{
+  "theme": "obsidian",
+  "accentColor": "",
+  "cssTheme": "Vanilla AMOLED",
+  "interfaceFontFamily": "Cascadia Mono",
+  "textFontFamily": "Cascadia Code",
+  "baseFontSizeAction": true,
+  "nativeMenus": false,
+  "showRibbon": true
+}
