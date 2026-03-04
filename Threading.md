@@ -2,7 +2,7 @@
 ## Types of Program Execution 
 
 ### Sequential
-In this Execution type a single core runs the whole program 
+In this Execution type a single core runs the whole program Sequentially.
 
 ### Concurrent
 
