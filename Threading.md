@@ -88,3 +88,33 @@ Options in "ThreadPriority" enum : Lowest | BelowNormal | Normal | AboveNormal |
 
 Actual thread execution speed / completion time depends on various factors such as amount of code of the thread, OS's time slicing algorithm etc.
 
+#### IsAlive
+
+Represents a boolean value that indicates whether the thread is currently running (started or not). It becomes true when the start() method called and becomes false when the thread execution is completed.
+
+#### IsBackground
+
+Represents a boolean value that indicates whether the thread is a background thread or not.
+
+True : The thread will not prevent the application from termination when, even when the thread is not completed.
+
+False : The thread will prevent the application from terminating when, even when the thread is not completed.
+
+#### ThreadState {get;}
+
+Returns an enum value that represents the current state of the thread.
+
+Options that are in "ThreadState" enum :
+
+1. Unstarted : Indicates that the thread has been created but has not yet been started. It is the default value of a new thread.
+2. Running : Indicates that the thread is currently running and executing the code.
+3. WaitSleepJoin : Indicates that the thread is currently in wait, sleep or join state, and is not executing the code.
+4. Suspended : Indicates that the thread is suspended by using the "Thread.Suspend()" method. But the suspend() method is deprecated in .Net core.
+5. Aborted : Indicates that the thread is aborted (terminated) by using the "Thread.Abort()" method, but the Abort() method is deprecated in .Net core.
+6. Stopped : Indicates that the thread execution has been completed.
+
+ Note : There are few methods called Abort(), Suspend() and Resume() in "Thread" class in earlier version of .Net.
+
+ But these methods are obsolete (deprecated) and not recommended to use in real world application, because they can cause thread instability, deadlocks and other synchronization issues etc.
+
+
