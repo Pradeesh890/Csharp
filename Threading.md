@@ -117,4 +117,50 @@ Options that are in "ThreadState" enum :
 
  But these methods are obsolete (deprecated) and not recommended to use in real world application, because they can cause thread instability, deadlocks and other synchronization issues etc.
 
+unstarted -> running -> waitsleepjoin | suspend | aborted | stopped
+
+
+ThreadStart doesn't support sending parameters by default so we have another class called "ParameterizedThreadstart"
+
+we can send objects in the "ParameterizedThreadStart" in which we can send object.
+
+The trick to send more number of arguments is to create a custom class with required parameters and sending the object of that class.
+
+We should avoid using same property for two threads as it may lead to thread synchronization issues.
+
+to prevent this we us "custom threads" where we include the property of the class that is going to be used by the thread.
+
+E.g. 
+``` csharp
+class NumberUpCounter
+{
+    public int Count { get; set; }
+    public void Countup()
+    {
+        try
+        { 
+            for (int i = 1; i <= Count; i++)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write($"{i} , ");
+                Thread.Sleep(100);
+            }
+        }
+        catch (ThreadInterruptedException ex)
+        {
+            Console.WriteLine("\nThread Interrupted: " + ex.Message);
+        }
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        NumberUpCounter nuc = new() { Count = 100};
+        ThreadStart Threadst = new ThreadStart(nuc.Countup);
+        tdd.Start();
+    }
+}
+```
 
