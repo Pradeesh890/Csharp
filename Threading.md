@@ -164,3 +164,39 @@ class Program
 }
 ```
 
+We don't use shared resource for below reasons.
+
+### Race Condition
+
+A race condition occurs when multiple threads try to update shared data simultaneously, and the final outcome depends on the order in which the threads are executed. The result becomes unpredictable and can lead to data corruption or incorrect computations.
+
+## Data Inconsistency
+
+When multiple threads read and modify shared data without synchronization, it can lead to data inconsistency. One thread may read the data while another is in the process of modifying it, leading to incorrect results or unexpected behavior.
+
+## Deadlock
+
+A deadlock occurs when two or more threads are blocked indefinitely because each thread is waiting for a resource that is held by another thread. This situation results in a standstill, where no thread can proceed, and the program becomes unresponsive.
+
+## Starvation
+
+Starvation happens when a thread is perpetually denied access to a shared resource because other high - priority threads consistently acquire the resource first. The starved thread cannot make progress and may result in reduced performance.
+
+# Thread Synchronization
+
+Thread synchronization is the process of coordinating the execution of multiple threads to ensure that they do not interfere with each other while accessing shared resources.
+
+This is essential if two or more threads are accessing a shared resource such as a variable / property or any other external resource.
+
+### Thread synchronization mechanisms
+
+1. Monitor
+2. Locks
+3. Mutex
+4. Semaphores
+
+## Monitor
+
+If two threads are accessing the same shared resource and do some operation on that resource only one should be given access at one time after completing one threads operations other thread should get the access until that other thread should be in the waiting state.
+
+By using the monitor class we can do the perform the above operation. 
