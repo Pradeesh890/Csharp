@@ -200,3 +200,9 @@ This is essential if two or more threads are accessing a shared resource such as
 If two threads are accessing the same shared resource and do some operation on that resource only one should be given access at one time after completing one threads operations other thread should get the access until that other thread should be in the waiting state.
 
 By using the monitor class we can do the perform the above operation. 
+
+In object class we introduce a thing called Lock Object
+Lock object doesn't store any data it is just a dummy object that is used to comparing two thread object and see what they want.
+
+The number of lock objects should be equal to the number of Shared Resource i.e. we need to create a lock object for each and every shared Resource.
+

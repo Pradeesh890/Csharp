@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7bbb1c67010c8ee4",
@@ -185,8 +186,9 @@
   },
   "active": "4d4df292750ddb42",
   "lastOpenFiles": [
-    "Threading.md",
     "C Sharp.md",
+    "Type conversion.md",
+    "Threading.md",
     "Pasted image 20260304104251.png",
     "Untitled.md",
     "Arrays.md",
@@ -214,7 +216,6 @@
     "DotNet Framework.md",
     "CLR.md",
     "Constructor.md",
-    "Enumeration.md",
     "Pasted image 20260206150214.png",
     "Pasted image 20260203125937.png",
     "Pasted image 20260203145239.png",
