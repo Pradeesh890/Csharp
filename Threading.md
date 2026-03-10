@@ -206,3 +206,21 @@ Lock object doesn't store any data it is just a dummy object that is used to com
 
 The number of lock objects should be equal to the number of Shared Resource i.e. we need to create a lock object for each and every shared Resource.
 
+The threads have to send the request the monitor class when they have to read or write something in the shared resource then the monitor class will give the access to the resource and then the thread can write or read the shared resource.
+
+the thread have to send the lock object if there is lock then the resource is used by other threads so it cannot access the shared resource it can access only if the lock is not available.
+
+Monitor class has a priority system in which it doesn't follow any priority number but first comes first server method.
+
+The code that tries to access the shared resource is called as critical code, and that must be wrapped between enter and exit methods of monitor class.
+
+The "monitor" class is a synchronization primitive that enable thread synchronization based on a lock object.
+
+It ensures that only one thread can execute the code within the critical section at a time, thus preventing race conditions and deadocks.
+
+Two threads that use the same lock object can access a common shared resource one at a time.
+
+### Lock Statement
+
+Local statement in introduced to simplify the "Monitor.Enter() and Monitor.Exit()", This is just synthetic sugar internally it is still compiled as "Monitor.Enter() and Monitor.Exit()" but it is used for easy reading and clearly identifying the critical code.
+
